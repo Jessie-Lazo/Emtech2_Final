@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 from PIL import Image
 
 # Update the path to your saved model
-model_path ='C:/Users/Jess/fashion_mnist_cnn.h5'
+model_path ='fashion_mnist_cnn.h5'
 
 # Load the trained model
 model = load_model(model_path)
